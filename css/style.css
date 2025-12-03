@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f0f1a;
+    color: #b8b8c8;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* Navigation */
+nav {
+    background: rgba(15, 15, 26, 0.95);
+    border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+    padding: 1.2rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+nav .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffd700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav .logo::before {
+    content: '🛡️';
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+nav a {
+    color: #b8b8c8;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+nav .btn-register {
+    background: #ffd700;
+    color: #0f0f1a;
+    padding: 0.6rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+nav .btn-register:hover {
+    background: #ffed4e;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
+}
+
+/* Container */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 8rem 2rem;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    background: linear-gradient(90deg, #ffd700 0%, #b8d435 30%, #50c878 60%, #50c878 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    color: #b8b8c8;
+    margin-bottom: 3rem;
+    font-weight: 300;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #ffd700;
+    color: #0f0f1a;
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+}
+
+.btn-primary:hover {
+    background: #ffed4e;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 25px rgba(255, 215, 0, 0.5);
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 2px solid #ffd700;
+    color: #ffd700;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 215, 0, 0.1);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 20px rgba(255, 215, 0, 0.2);
+}
+
+/* Cards Grid */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    padding: 3rem 0;
+}
+
+.card {
+    background: rgba(21, 21, 35, 0.6);
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    border-radius: 12px;
+    padding: 2rem;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 215, 0, 0.4);
+    box-shadow: 0 8px 25px rgba(255, 215, 0, 0.15);
+    background: rgba(21, 21, 35, 0.8);
+}
+
+.card h3 {
+    color: #ffd700;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.card p {
+    color: #b8b8c8;
+    line-height: 1.8;
+}
+
+/* Section */
+section {
+    padding: 4rem 0;
+}
+
+section h2 {
+    background: linear-gradient(90deg, #ffd700, #50c878);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+/* Footer */
+footer {
+    background: rgba(15, 15, 26, 0.95);
+    border-top: 1px solid rgba(255, 215, 0, 0.1);
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+footer p {
+    color: #b8b8c8;
+    font-size: 0.9rem;
+}
+
+/* ============================================
+   MOBILE NAVIGATION (hamburger menu)
+   ============================================ */
+
+/* Hamburger gomb - alapból elrejtve */
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #ffd700;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 1001;
+}
+
+/* MOBIL (768px alatt) */
+@media (max-width: 768px) {
+    /* Hamburger gomb megjelenik */
+    .nav-toggle {
+        display: block;
+    }
+    
+    /* Normál menü elrejtése */
+    nav ul {
+        position: fixed;
+        top: 70px;
+        right: -100%; /* Elrejtve jobbra */
+        width: 250px;
+        height: calc(100vh - 70px);
+        background: rgba(10, 14, 19, 0.98);
+        flex-direction: column;
+        padding: 2rem 1rem;
+        gap: 0;
+        transition: right 0.3s ease;
+        border-left: 1px solid rgba(255, 215, 0, 0.2);
+        overflow-y: auto;
+        z-index: 1000;
+    }
+    
+    /* Menü megjelenik amikor active class van rajta */
+    nav ul.active {
+        right: 0; /* Becsúszik balról */
+    }
+    
+    /* Menüpontok mobilon */
+    nav ul li {
+        width: 100%;
+        margin: 0;
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: 1rem;
+        border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+    }
+    
+    /* Logo */
+    .logo {
+        flex: 1;
+    }
+}
+
+/* DESKTOP (769px felett) - hamburger ELREJTVE */
+@media (min-width: 769px) {
+    .nav-toggle {
+        display: none !important; /* Biztosan elrejtve */
+    }
+    
+    nav ul {
+        display: flex !important; /* Normál menü látszik */
+        position: static !important;
+        width: auto !important;
+        height: auto !important;
+        background: none !important;
+        flex-direction: row !important;
+    }
+}

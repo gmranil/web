@@ -1,0 +1,49 @@
+[2025-12-03 07:23:47] Database Connection Error: SQLSTATE[HY000] [1049] Unknown database 'l2jls'
+[2025-12-03 07:24:41] Login process error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'access_level' in 'field list'
+[2025-12-03 07:24:48] Login process error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'access_level' in 'field list'
+[2025-12-03 07:46:26] Login attempt: User: ranil | Hash: Xup0HcG39e4i7F57f7ggwGdMsIM= | DB: Xup0HcG39e4i7F57f7ggwGdMsIM=
+[2025-12-03 07:48:12] Registration: User: teszt | Hash: NCKKUyCTJ4/Nxlw6EzhILovcRPY=
+[2025-12-03 07:48:20] Login attempt: User: teszt | Hash: NCKKUyCTJ4/Nxlw6EzhILovcRPY= | DB: NCKKUyCTJ4/Nxlw6EzhILovcRPY=
+[2025-12-03 07:52:46] Login attempt: User: teszt | Hash: NCKKUyCTJ4/Nxlw6EzhILovcRPY= | DB: iGB54tgikh+1HrKGbajS6Du5jCQ=
+[2025-12-03 07:52:55] Login attempt: User: teszt | Hash: iGB54tgikh+1HrKGbajS6Du5jCQ= | DB: iGB54tgikh+1HrKGbajS6Du5jCQ=
+[2025-12-03 07:56:15] Login attempt: User: daxos | Hash: Xup0HcG39e4i7F57f7ggwGdMsIM= | DB: Xup0HcG39e4i7F57f7ggwGdMsIM=
+[2025-12-03 08:02:49] Login attempt: User: ranil | Hash: Xup0HcG39e4i7F57f7ggwGdMsIM= | DB: Xup0HcG39e4i7F57f7ggwGdMsIM=
+[2025-12-03 08:07:12] Login attempt: User: ranil | Hash: Xup0HcG39e4i7F57f7ggwGdMsIM= | DB: Xup0HcG39e4i7F57f7ggwGdMsIM=
+[2025-12-03 08:07:20] Login attempt: User: daxos | Hash: Xup0HcG39e4i7F57f7ggwGdMsIM= | DB: Xup0HcG39e4i7F57f7ggwGdMsIM=
+[2025-12-03 08:07:28] Login attempt: User: ranil | Hash: Xup0HcG39e4i7F57f7ggwGdMsIM= | DB: Xup0HcG39e4i7F57f7ggwGdMsIM=
+[2025-12-03 08:08:57] Login attempt: User: ranil | Hash: Xup0HcG39e4i7F57f7ggwGdMsIM= | DB: Xup0HcG39e4i7F57f7ggwGdMsIM=
+[2025-12-03 08:10:33] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:10:44] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:10:45] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:10:46] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:10:47] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:10:49] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:10:51] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:14:13] Login attempt: User: ranil | Hash: Xup0HcG39e4i7F57f7ggwGdMsIM= | DB: Xup0HcG39e4i7F57f7ggwGdMsIM=
+[2025-12-03 08:14:15] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:17:13] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:18:40] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:18:45] Login attempt: User: ranil | Hash: Xup0HcG39e4i7F57f7ggwGdMsIM= | DB: Xup0HcG39e4i7F57f7ggwGdMsIM=
+[2025-12-03 08:18:47] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:18:49] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:18:51] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:18:52] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:18:52] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:18:53] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:18:53] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:18:55] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:22:55] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:23:43] Login attempt: User: ranil | Hash: Xup0HcG39e4i7F57f7ggwGdMsIM= | DB: Xup0HcG39e4i7F57f7ggwGdMsIM=
+[2025-12-03 08:24:12] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:24:15] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:24:29] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:26:18] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:26:28] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:36:37] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:38:27] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:38:29] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:38:35] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:40:10] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
+[2025-12-03 08:41:08] Login attempt: User: daxos | Hash: Xup0HcG39e4i7F57f7ggwGdMsIM= | DB: Xup0HcG39e4i7F57f7ggwGdMsIM=
+[2025-12-03 08:41:24] Login attempt: User: ranil | Hash: Xup0HcG39e4i7F57f7ggwGdMsIM= | DB: Xup0HcG39e4i7F57f7ggwGdMsIM=
+[2025-12-03 08:41:26] Admin auth check: {"logged_in":true,"username":"ranil","access_level":100}
